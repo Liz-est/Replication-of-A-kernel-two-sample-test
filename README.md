@@ -19,7 +19,7 @@ Current progress: Figure 5A replicated (statistical power vs. dimensionality, di
 
 ### Results
 
-![MMD Power vs Dimension](E:\论文实验复现\A kernel two-sample test\code\results\MMD Power vs Dimension.png)
+![Figure 5A](MMD_Power_vs_Dimension.png)
 
 *Replicated Figure 5A: percent correctly rejecting H₀ vs. dimensionality, for two Gaussian distributions with different means. Test level α = 0.05, m = n = 250, averaged over 100 repetitions.*
 
@@ -59,6 +59,7 @@ All files in `/my_scripts` were written independently as part of this replicatio
 │   ├── MMD_Power_vs_Dimension.png   # Replicated Figure 5A (PNG, viewable on GitHub)
 │   └── figure5.fig                  # Replicated Figure 5A (MATLAB .fig, interactive)
 └── README.md
+└── LICENSE 
 ```
 
 ---
@@ -103,7 +104,8 @@ Code in `/original_code` belongs to the original authors. See attribution above.
 
 ---
 
-### 复现结果![MMD Power vs Dimension](E:\论文实验复现\A kernel two-sample test\code\results\MMD Power vs Dimension.png)
+### 复现结果
+![Figure 5A](MMD_Power_vs_Dimension.png)
 
 *复现的 Figure 5A：两个均值不同的高斯分布，正确拒绝 H₀ 的比例随维度的变化。显著性水平 α = 0.05，m = n = 250，100 次重复取平均。*
 
@@ -143,6 +145,7 @@ Code in `/original_code` belongs to the original authors. See attribution above.
 │   ├── MMD_Power_vs_Dimension.png   # 复现的 Figure 5A（PNG，可在 GitHub 直接预览）
 │   └── figure5A.fig                  # 复现的 Figure 5A（MATLAB .fig，可交互）
 └── README.md
+└── LICENSE 
 ```
 
 ---
