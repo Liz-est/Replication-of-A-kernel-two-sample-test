@@ -19,7 +19,7 @@ Current progress: Figure 5A replicated (statistical power vs. dimensionality, di
 
 ### Results
 
-![Figure 5A](MMD_Power_vs_Dimension.png)
+![Figure 5A](results/MMD_Power_vs_Dimension.png)
 
 *Replicated Figure 5A: percent correctly rejecting H₀ vs. dimensionality, for two Gaussian distributions with different means. Test level α = 0.05, m = n = 250, averaged over 100 repetitions.*
 
@@ -105,7 +105,7 @@ Code in `/original_code` belongs to the original authors. See attribution above.
 ---
 
 ### 复现结果
-![Figure 5A](MMD_Power_vs_Dimension.png)
+![Figure 5A](results/MMD_Power_vs_Dimension.png)
 
 *复现的 Figure 5A：两个均值不同的高斯分布，正确拒绝 H₀ 的比例随维度的变化。显著性水平 α = 0.05，m = n = 250，100 次重复取平均。*
 
