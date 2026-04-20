@@ -8,9 +8,13 @@ dist_type = 'gauss';
 m = 250;
 alpha = 0.05; %显著性水平
 n_repeat = 100; %重复次数
-% 生成从 0.05 到 50 的对数等距分布的 20 个差异值
-% log10(0.05) 是起点，log10(50) 是终点，20 是点数
-diff_vals = logspace(log10(0.05), log10(50), 20); 
+
+% 生成对数等距分布的 20 个差异值
+%复现figure5 A
+%diff_vals = logspace(log10(0.05), log10(50), 20); 
+
+%复现figure5 B
+diff_vals = logspace(0.01,1,20);
 
 %参数设置
 params.sig = -1; %计算sigma

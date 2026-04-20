@@ -4,7 +4,8 @@ function [X, Y] = generate_data(m, d, dist_type, diff_val)
     if strcmp(dist_type, 'gauss')
         X = randn(m, d);
         Y = randn(m, d) ; 
-        Y(:, 1) = Y(:, 1) + diff_val;%设定差异
+        %Y(:, 1) = Y(:, 1) + diff_val; %设定均值差异
+        Y = Y*diff_val; %设定方差差异
        
     elseif strcmp(dist_type, 'laplace')
         % 1. 生成标准的拉普拉斯分布 (均值为0)
